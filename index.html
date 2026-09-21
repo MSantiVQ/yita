@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para mi Yita</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sky"></div>
+
+  <div class="field" id="field" aria-hidden="true"></div>
+
+
+  <main id="scene-envelope" class="scene">
+    <p class="hint">para yita</p>
+    <button id="envelope" class="envelope" aria-label="Abrir el sobre">
+      <span class="envelope-shadow"></span>
+      <span class="flap"></span>
+      <span class="body"></span>
+      <span class="seal">K</span>
+    </button>
+  </main>
+
+  <section id="scene-letter" class="scene scene-letter" hidden>
+
+    <div class="gift-layout">
+      <button id="bouquet" class="bouquet" aria-label="Tocar el ramo">
+        <img src="ramo.png" alt="Ramo de girasoles y lirios amarillos" class="bouquet-img">
+      </button>
+
+      <article class="letter">
+        <p class="letter-eyebrow">21 de marzo</p>
+        <p class="letter-text">Hoy empieza la primavera, pero mi flor favorita sigue siendo tu linda sonrisa. Espero tengas un linda dia, te cielo mi yita <3</p>
+
+        <div class="photo-frame">
+          <img src="nosotros.png" alt="Nosotros dos" class="photo">
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
